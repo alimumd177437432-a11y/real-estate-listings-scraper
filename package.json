@@ -1,0 +1,15 @@
+{
+  "name": "nawq-scraper",
+  "version": "1.0.0",
+  "description": "سكربت سحب إعلانات سيارات من cars4sale.ps لموقع نوق وسوق",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "scrape": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0",
+    "exceljs": "^4.4.0",
+    "axios": "^1.7.0"
+  }
+}
